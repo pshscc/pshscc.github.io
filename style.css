@@ -117,6 +117,10 @@ i.fa-angle-down:hover {
     position: relative;
 }
 
+.img-thumbnail {
+    height: 240px;
+}
+
 .title {
     text-shadow: 2px 2px 5px black;
 }
