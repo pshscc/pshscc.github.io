@@ -60,13 +60,17 @@ html, body {
 
 .title h1 {
     color: white;
-    font-size: 5rem;
+    font-size: 8vw;
     padding-bottom: 1rem;
 }
 
 .title h3 {
     color: white;
     padding-bottom: 1rem;
+}
+
+.banner-title {
+    font-size: 8vw;
 }
 
 i.fa-angle-down {
@@ -146,6 +150,11 @@ i.fa-angle-down:hover {
     font-size: larger;
 }
 
+h3 a,
+h3 a:hover {
+    color: black;
+}
+
 a {
     font-size: larger;
 }
@@ -165,15 +174,14 @@ ul {
     padding: 0;
 }
 
-ol {
-    margin: 0;
-    padding: 0;
-}
-
 .fa {
     padding: 15px 5px;
     font-size: 25px;
     color: #fff;
+}
+
+.fa-heart {
+    font-size: 1em;
 }
 
 .fa:hover {
