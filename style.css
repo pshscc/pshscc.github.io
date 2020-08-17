@@ -122,7 +122,8 @@ i.fa-angle-down:hover {
 }
 
 .img-thumbnail {
-    height: 240px;
+    background-size: contain;
+    height: 15vw;
 }
 
 .title {
@@ -161,7 +162,6 @@ a {
 
 footer {
     width: 100%;
-    /*background-color: black;*/
     background-color: rgb(48,75,120);
     padding: 5% 5% 5% 5%;
     color: #fff;
