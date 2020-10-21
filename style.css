@@ -121,9 +121,22 @@ i.fa-angle-down:hover {
     position: relative;
 }
 
-.img-thumbnail {
-    background-size: contain;
-    height: 240px;
+.card {
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+@media (max-width: 1280px){
+    .card-img-top {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+    }
 }
 
 .title {
@@ -186,6 +199,11 @@ ul {
 
 .fa:hover {
     color: #d5d5d5;
+    text-decoration: none;
+}
+
+.fa-heart:hover {
+    color: #fff !important;
     text-decoration: none;
 }
 
